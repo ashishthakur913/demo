@@ -172,7 +172,7 @@ $(document).ready(function() {
 	    
 	    //marker church
 	    var image_church  = new google.maps.MarkerImage("static/img/marker-church.png", null, null, null, new google.maps.Size(33,50));
-	    var positionpin_church  = new google.maps.LatLng(46.45846658, 30.73616266);
+	    var positionpin_church  = new google.maps.LatLng(30.733778, 76.695460);
 	    var marker_church  = new google.maps.Marker({
 	      position: positionpin_church ,
 	      icon: image_church ,
@@ -209,7 +209,7 @@ $(document).ready(function() {
 	    
 	    //marker restaurant
 	    var image_restaurant = new google.maps.MarkerImage("static/img/marker-restaurant.png", null, null, null, new google.maps.Size(33,50));
-	    var positionpin_restaurant = new google.maps.LatLng(46.44708343, 30.71826696);
+	    var positionpin_restaurant = new google.maps.LatLng(30.733778, 76.695460);
 	    var marker_restaurant = new google.maps.Marker({
 	      position: positionpin_restaurant,
 	      icon: image_restaurant,
@@ -246,7 +246,7 @@ $(document).ready(function() {
 	    
 	    //marker hotel
 	    var image_hotel = new google.maps.MarkerImage("static/img/marker-hotel.png", null, null, null, new google.maps.Size(33,50));
-	    var positionpin_hotel = new google.maps.LatLng(46.44779309, 30.7551527);
+	    var positionpin_hotel = new google.maps.LatLng(30.733778, 76.695460);
 	    var marker_hotel = new google.maps.Marker({
 	      position: positionpin_hotel,
 	      icon: image_hotel,
@@ -255,7 +255,7 @@ $(document).ready(function() {
 	      title: ''
 	    });
 	    var boxText_hotel = document.createElement("div");
-	    boxText_hotel.innerHTML = '<div class="grid grid_6 percentage block-focus"><div class="block-focus center"><h4>Hotel</h4><h5>Sleep</h5><p><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i></p></div></div><div class="grid grid_6 percentage block-focus"><img class="block-focus block-focus" src="http://placehold.it/376x308"></div>';
+	    boxText_hotel.innerHTML = '<div class="grid grid_6 percentage block-focus"><div class="block-focus center"><h4>Resort</h4><h5>Cheshma Shahi</h5><p><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i></p></div></div><div class="grid grid_6 percentage block-focus"><img class="block-focus block-focus" src="https://bharti-weds-akshay.netlify.com/static/img/hotel.jpeg"></div>';
 	    var marker_hotel_options = {
 	         content: boxText_hotel
 	        ,disableAutoPan: false
